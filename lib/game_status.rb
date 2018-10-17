@@ -29,5 +29,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|space| board[space.to_i] == "X" || board[space.to_i] == "O"}
+  board.all?{|space| space == "X" || space == "O"}
 end
