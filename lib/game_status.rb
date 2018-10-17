@@ -47,4 +47,8 @@ def over?(board)
 end
 
 def winner(board)
+  winning_array = won?(board)
+  token_index = winning_array[0]
+  token = board[token_index]
+  token
 end
