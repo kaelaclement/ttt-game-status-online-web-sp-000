@@ -30,5 +30,4 @@ end
 
 def full?(board)
   full = board.all?{|space| position_taken?(board, space.to_i)}
-  full
 end
